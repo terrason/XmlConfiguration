@@ -17,7 +17,7 @@ import org.xml.sax.SAXException;
  *
  * 若{@code xml doctype}声明中{@code systemId}为
  * {@code "http://www.yourcompany.com/dtds/ldap.dtd"}， 则dtd实体文件 的查找路径为
- * {@code "/com/yourcompany/dtds/ldap.dtd".
+ * {@code "/com/yourcompany/dtds/ldap.dtd}".
  * </p>
  *
  * @author terrason

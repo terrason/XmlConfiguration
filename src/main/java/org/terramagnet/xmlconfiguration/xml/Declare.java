@@ -17,7 +17,7 @@ public interface Declare {
     public static final String CDATA="CDATA";
     /**
      * 声明类别.
-     * @return {@link #ELEMENT}、{@link #ATTLIST}、{@link ATTRBUILTE}或{@link #ENTITY}
+     * @return {@link #ELEMENT}、{@link #ATTLIST}、{@link #ATTRBUILTE}或{@link #ENTITY}
      */
     public String getType();
     /**
