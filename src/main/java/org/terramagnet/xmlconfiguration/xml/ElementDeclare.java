@@ -7,7 +7,7 @@ package org.terramagnet.xmlconfiguration.xml;
 /**
  * 元素声明.
  *
- * @author LEE
+ * @author terrason
  */
 public interface ElementDeclare extends Declare {
 

@@ -7,7 +7,7 @@ package org.terramagnet.xmlconfiguration.xml;
 /**
  * 文档类型定义. 用来封装DTD文件内容。
  *
- * @author LEE
+ * @author terrason
  */
 public interface Dtd {
 

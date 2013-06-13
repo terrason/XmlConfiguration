@@ -24,7 +24,7 @@ import org.dom4j.Element;
  * 
  * <p>该类实现了{@link Configuration 配置接口}，但在载入配置前必须包含必要信息，如{@link #setDocument(org.dom4j.Document) 文档}、{@link #setDtd(org.terramagnet.xmlconfiguration.xml.Dtd) dtd}等。</p>
  *
- * @author LEE
+ * @author terrason
  */
 public class XmlConfiguration implements Configuration {
 

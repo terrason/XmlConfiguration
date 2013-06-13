@@ -15,7 +15,7 @@ import org.xml.sax.EntityResolver;
 /**
  * 类路径xml加载器.
  *
- * @author LEE
+ * @author terrason
  * @see DefaultXml
  */
 public class ClassPathXmlLoader implements XmlLoader {

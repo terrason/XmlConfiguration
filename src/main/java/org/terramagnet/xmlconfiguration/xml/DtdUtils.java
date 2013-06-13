@@ -18,7 +18,7 @@ import org.dom4j.dtd.InternalEntityDecl;
 
 /**
  *
- * @author LEE
+ * @author terrason
  */
 public final class DtdUtils {
 

@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 /**
  *
- * @author LEE
+ * @author terrason
  */
 public class SimpleElementDeclare implements ElementDeclare {
 

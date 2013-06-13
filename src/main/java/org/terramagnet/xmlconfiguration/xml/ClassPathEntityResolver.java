@@ -20,7 +20,7 @@ import org.xml.sax.SAXException;
  * {@code "/com/yourcompany/dtds/ldap.dtd".
  * </p>
  *
- * @author LEE
+ * @author terrason
  */
 public class ClassPathEntityResolver implements EntityResolver {
 

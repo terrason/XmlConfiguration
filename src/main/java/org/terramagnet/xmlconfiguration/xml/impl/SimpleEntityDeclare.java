@@ -9,7 +9,7 @@ import org.terramagnet.xmlconfiguration.xml.EntityDeclare;
 
 /**
  *
- * @author LEE
+ * @author terrason
  */
 public final class SimpleEntityDeclare implements EntityDeclare {
 

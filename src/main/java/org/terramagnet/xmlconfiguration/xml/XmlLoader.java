@@ -11,7 +11,7 @@ import org.dom4j.Document;
 /**
  * xml配置文件载入器.
  *
- * @author LEE
+ * @author terrason
  */
 public interface XmlLoader {
 

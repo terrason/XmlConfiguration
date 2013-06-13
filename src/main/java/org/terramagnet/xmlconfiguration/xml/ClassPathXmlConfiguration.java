@@ -24,7 +24,7 @@ import org.xml.sax.EntityResolver;
  *
  * </ul>
  *
- * @author LEE
+ * @author terrason
  */
 public final class ClassPathXmlConfiguration extends XmlConfiguration {
 

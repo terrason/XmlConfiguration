@@ -9,7 +9,7 @@ import org.terramagnet.xmlconfiguration.xml.Declare;
 
 /**
  *
- * @author LEE
+ * @author terrason
  */
 public class SimpleAttributeDeclare implements AttributeDeclare {
 

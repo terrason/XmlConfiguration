@@ -7,7 +7,7 @@ package org.terramagnet.xmlconfiguration.configuration;
 /**
  * 所有系统配置的接口. 
  *
- * @author LEE
+ * @author terrason
  */
 public interface Configuration {
 

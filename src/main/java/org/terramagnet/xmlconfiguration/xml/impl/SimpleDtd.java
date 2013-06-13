@@ -14,7 +14,7 @@ import java.util.Map.Entry;
  * Dtd接口的简单实现. 采用3个HashMap存储声明。
  *
  * @see AttrlistDeclare
- * @author LEE
+ * @author terrason
  */
 public final class SimpleDtd implements Dtd {
 

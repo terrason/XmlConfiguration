@@ -7,7 +7,7 @@ package org.terramagnet.xmlconfiguration.xml;
 /**
  * 元素属性列表声明.
  *
- * @author LEE
+ * @author terrason
  */
 public interface AttrlistDeclare extends Declare {
 

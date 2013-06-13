@@ -6,7 +6,7 @@ package org.terramagnet.xmlconfiguration.xml;
 
 /**
  *dtd中的声明.
- * @author LEE
+ * @author terrason
  */
 public interface Declare {
     public static final String ELEMENT="ELEMENT";

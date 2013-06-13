@@ -8,7 +8,7 @@ import org.dom4j.Document;
 
 /**
  *
- * @author LEE
+ * @author terrason
  */
 public interface Xml {
 

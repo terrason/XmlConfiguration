@@ -7,7 +7,7 @@ package org.terramagnet.xmlconfiguration.xml;
 /**
  * 单个属性声明.
  *
- * @author LEE
+ * @author terrason
  */
 public interface AttributeDeclare extends Declare {
 

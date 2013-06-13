@@ -6,7 +6,7 @@ package org.terramagnet.xmlconfiguration.configuration;
 
 /**
  * 加载配置信息时出现的异常. 包括资源文件异常、Java反射异常以及各种自定义的异常。
- * @author LEE
+ * @author terrason
  */
 public class ConfigureException extends RuntimeException {
 

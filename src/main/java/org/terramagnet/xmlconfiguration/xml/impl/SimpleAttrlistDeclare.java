@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  *
- * @author LEE
+ * @author terrason
  */
 public final class SimpleAttrlistDeclare implements AttrlistDeclare {
 
