@@ -67,7 +67,7 @@ public final class ClassPathXmlConfiguration extends XmlConfiguration {
     @Override
     public Object configure() throws ConfigureException, IllegalStateException {
         if (xml == null) {
-            throw new IllegalStateException("尚未设置xml的路径");
+            throw new IllegalStateException("尚未设置xml文件路径");
         }
         Document document;
         Dtd dtd = null;
