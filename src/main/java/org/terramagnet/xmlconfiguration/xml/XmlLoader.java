@@ -22,7 +22,7 @@ public interface XmlLoader {
      * @return xml文档对象
      * @throws ConfigureException 配置文件加载出错
      */
-    public Document load(String xml) throws ConfigureException;
+    public Document load(String xml,boolean validate) throws ConfigureException;
 
     /**
      * 使用输入流来加载配置.
@@ -31,7 +31,7 @@ public interface XmlLoader {
      * @return xml文档对象
      * @throws ConfigureException 配置文件加载出错
      */
-    public Document load(InputStream is) throws ConfigureException;
+    public Document load(InputStream is,boolean validate) throws ConfigureException;
 
     /**
      * 根据配置文件的类路径来加载配置. 会将两个配置文件的内容合并，同时对第二个xml文件启用验证。

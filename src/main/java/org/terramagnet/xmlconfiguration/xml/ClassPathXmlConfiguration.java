@@ -72,7 +72,7 @@ public final class ClassPathXmlConfiguration extends XmlConfiguration {
         Document document;
         Dtd dtd = null;
         if (baseXml == null) {
-            document = loader.load(xml);
+            document = loader.load(xml,true);
         } else {
             Xml x = loader.merge(baseXml, xml);
             document = x.getDocument();

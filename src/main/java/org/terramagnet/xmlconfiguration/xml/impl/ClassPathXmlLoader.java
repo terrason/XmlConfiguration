@@ -28,12 +28,12 @@ public class ClassPathXmlLoader implements XmlLoader {
      * @param classpath 配置文件的类路径
      */
     @Override
-    public Document load(String classpath) {
+    public Document load(String classpath,boolean validate) {
         InputStream is = ClassPathXmlLoader.class.getResourceAsStream(classpath);
         if (is == null) {
             throw new ConfigureException("找不到指定资源：" + classpath);
         }
-        return load(is);
+        return load(is,validate);
     }
 
     /**
@@ -42,9 +42,12 @@ public class ClassPathXmlLoader implements XmlLoader {
      * @param is 配置文件的输入流. 本方法会自动关闭该流.
      */
     @Override
-    public Document load(InputStream is) {
+    public Document load(InputStream is,boolean validate) {
         SAXReader reader = new SAXReader();
         reader.setEntityResolver(entityResolver);
+        reader.setValidation(validate);
+        reader.setIncludeInternalDTDDeclarations(validate);
+        reader.setIncludeExternalDTDDeclarations(validate);
         try {
             return reader.read(is);
         } catch (DocumentException ex) {
@@ -55,8 +58,8 @@ public class ClassPathXmlLoader implements XmlLoader {
     @Override
     public Xml merge(String base, String xml) {
         DefaultXml dxml = new DefaultXml();
-        Document document = load(base);
-        Document doc = load(xml);
+        Document document = load(base,true);
+        Document doc = load(xml,false);
         DocumentExtender ext = new DocumentExtender();
         ext.setDtd(DtdUtils.createDtd(document.getDocType()));
         ext.extend(document.getDocument(), doc.getDocument());
